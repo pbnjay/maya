@@ -19,8 +19,8 @@ import (
 )
 
 var (
-	controllerResponse    = `{"Name":"vol1","ReadIOPS":"0","ReplicaCounter":0,"RevisionCounter":0,"SCSIIOCount":{},"SectorSize":"4096","Size":"1073741824","TotalReadBlockCount":"0","TotalReadTime":"0","TotalWriteTime":"0","TotatWriteBlockCount":"0","UpTime":158.667823193,"UsedBlocks":"5","UsedLogicalBlocks":"0","WriteIOPS":"0","actions":{},"links":{"self":"http://10.42.0.1:9501/v1/stats"},"type":"stats"}`
-	validControllerResp   = `{"Name":"vol1","ReadIOPS":"5","ReplicaCounter":2,"RevisionCounter":10,"SCSIIOCount":{},"SectorSize":"4096","Size":"1073741824","TotalReadBlockCount":"25","TotalReadTime":"45","TotalWriteTime":"30","TotatWriteBlockCount":"6","UpTime":158.667823193,"UsedBlocks":"5","UsedLogicalBlocks":"23","WriteIOPS":"11","actions":{},"links":{"self":"http://10.42.0.1:9501/v1/stats"},"type":"stats"}`
+	controllerResponse    = `{"Name":"vol1","ReadIOPS":"0","ReplicaCounter":0,"RevisionCounter":0,"SCSIIOCount":{},"SectorSize":"4096","Size":"1073741824","TotalReadBlockCount":"0","TotalReadTime":"0","TotalWriteTime":"0","TotalWriteBlockCount":"0","UpTime":158.667823193,"UsedBlocks":"5","UsedLogicalBlocks":"0","WriteIOPS":"0","actions":{},"links":{"self":"http://10.42.0.1:9501/v1/stats"},"type":"stats"}`
+	validControllerResp   = `{"Name":"vol1","ReadIOPS":"5","ReplicaCounter":2,"RevisionCounter":10,"SCSIIOCount":{},"SectorSize":"4096","Size":"1073741824","TotalReadBlockCount":"25","TotalReadTime":"45","TotalWriteTime":"30","TotalWriteBlockCount":"6","UpTime":158.667823193,"UsedBlocks":"5","UsedLogicalBlocks":"23","WriteIOPS":"11","actions":{},"links":{"self":"http://10.42.0.1:9501/v1/stats"},"type":"stats"}`
 	invalidControllerResp = `404 Page not found`
 )
 
